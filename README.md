@@ -1,6 +1,6 @@
 # Tracker IDF
 
-> Ferramenta gratuita para postos de combustível — captura cartões não cadastrados no WebPosto (Quality) e cadastra identificadores (IDF) diretamente na automação HorusTech.
+> Ferramenta gratuita para técnico e usuários WP  — captura cartões não cadastrados na automação e no WebPosto (Quality) sendo possivel cadastra identificadores (IDF) diretamente na automação HorusTech.
 
 [![Última versão](https://img.shields.io/github/v/release/ac4os/TrackerIDF-releases?label=vers%C3%A3o&color=2ea44f)](https://github.com/ac4os/TrackerIDF-releases/releases/latest)
 [![Plataforma](https://img.shields.io/badge/plataforma-Windows-blue)](#-download)
