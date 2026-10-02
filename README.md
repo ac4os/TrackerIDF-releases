@@ -2,84 +2,55 @@
 
 # 🛰️ Tracker IDF
 
-### Monitor de cartões não cadastrados — bico / sensor
+### Monitor & Auto-Cadastro de Identificadores de Pista (IDF)
 
-Ferramenta **gratuita** para capturar, em tempo real, identificadores (IDF)
-que passam no bico sem cadastro — e registrá-los na automação com um clique.
-
-<br/>
-
-[![Última versão](https://img.shields.io/github/v/release/ac4os/TrackerIDF-releases?label=vers%C3%A3o&style=for-the-badge&color=22c55e)](https://github.com/ac4os/TrackerIDF-releases/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/ac4os/TrackerIDF-releases/total?style=for-the-badge&color=3b82f6)](https://github.com/ac4os/TrackerIDF-releases/releases)
-[![Plataforma](https://img.shields.io/badge/Windows-10%20%7C%2011-0ea5e9?style=for-the-badge&logo=windows)](#)
+> Capture em tempo real tags e cartões não autorizados direto do fluxo de pista do WebPosto e grave na sua concentradora com apenas 1 clique.
 
 <br/>
 
-### ⬇️ [**BAIXAR ÚLTIMA VERSÃO**](https://github.com/ac4os/TrackerIDF-releases/releases/latest)
+[![Versão Mais Recente](https://img.shields.io/github/v/release/ac4os/TrackerIDF-releases?label=vers%C3%A3o&style=for-the-badge&color=22c55e&logo=github)](https://github.com/ac4os/TrackerIDF-releases/releases/latest)
+[![Total Downloads](https://img.shields.io/github/downloads/ac4os/TrackerIDF-releases/total?style=for-the-badge&color=3b82f6&logo=google-drive)](https://github.com/ac4os/TrackerIDF-releases/releases)
+[![Compatibilidade SO](https://img.shields.io/badge/Windows-10%20%7C%2011%20(64--bit)-0ea5e9?style=for-the-badge&logo=windows)](#)
+[![Licença](https://img.shields.io/badge/Licen%C3%A7a-Gratuita-f59e0b?style=for-the-badge)](#)
 
-<sub>Baixe o arquivo **`TrackerIDF-vX.X.X.exe`** na seção **Assets** da última release.</sub>
+<br/>
+
+### ⚡ [**BAIXAR EXECUTÁVEL (ÚLTIMA VERSÃO)**](https://github.com/ac4os/TrackerIDF-releases/releases/latest)
+
+<sub>Sem instalador. Baixe o **`TrackerIDF-vX.X.X.exe`** na aba *Assets* e use imediatamente.</sub>
 
 </div>
 
 ---
 
-## ✨ O que faz
+## ⚡ Recursos em Destaque
 
-| | |
+| Recurso | Detalhes da Operação |
 |---|---|
-| 🔎 **Captura ao vivo** | Lê o log do WebPosto e mostra cada cartão não cadastrado na hora. |
-| 🏷️ **Cadastro 1-clique** | Registra o IDF direto na automação compatível. |
-| 📤 **Exportar TXT** | Salva todos os eventos capturados num arquivo. |
-| 🔄 **Auto-update** | O app avisa sozinho quando sai versão nova e oferece o download. |
+| 📡 **Sniffer em Tempo Real** | Monitora dinamicamente as trilhas de log do WebPosto sem travamentos ou concorrência de leitura. |
+| ⚡ **Cadastro Instantâneo (1-Click)** | Dê duplo-clique no cartão capturado para gravar direto na concentradora ativa. |
+| 🏷️ **Cadastro Avulso Manual** | Tem o número do frentista ou sensor em mãos? Cadastre avulso sem precisar passar o bico. |
+| 📄 **Exportação Pronta** | Exporte listas de IDs capturados para `.TXT` estruturado com timestamp e canal. |
+| 🔄 **Smart Auto-Update** | Checagem de novas releases via API ao abrir o app — atualize com 1 toque. |
 
 ---
 
-## 🔌 Automações compatíveis para cadastro de IDF
-
-O Tracker IDF suporta o cadastro direto nas seguintes concentradoras e softwares de pista:
-
-| Concentradora / Automação | Suporte a Cadastro | Protocolo / Observações |
-|---|:---:|---|
-| **Companytec** (CBC) | ✅ Sim | Cadastro automático via DLL / comunicação direta |
-| **HorusTech** | ✅ Sim | Integração nativa para gravação de tag |
-| **EZTech (EZForecourt)** | 🟡 Em breve | Em fase de homologação |
-| **Softplus / Outras** | ⚪ Planejado | Sob análise técnica |
-
-> 📌 *Dica:* Se você opera com outra concentradora e precisa de suporte direto, abra uma *Issue* com o modelo do equipamento para avaliarmos a implementação.
-
----
-
-## 🚀 Como usar
-
-1. **Baixe** o `.exe` da [última release](https://github.com/ac4os/TrackerIDF-releases/releases/latest).
-2. **Execute** — não precisa instalar (o Windows pode pedir permissão de administrador).
-3. Confirme o **caminho do log** (detecção automática) e clique em **Iniciar leitura**.
-4. Passou um cartão não cadastrado? Ele aparece na lista → **duplo-clique** para cadastrar.
-
-> 💡 Ao abrir, se houver versão mais nova, o próprio app pergunta se você quer baixar.
-
----
-
-## 🔄 Atualização automática
-
-O Tracker IDF confere esta página de releases ao abrir.
-Saiu versão nova → aparece um aviso **"Nova versão disponível. Baixar?"**.
-É só aceitar, baixar o novo `.exe` e substituir o antigo.
-
----
-
-## ⚠️️ Aviso importante
-
-O Tracker IDF é uma ferramenta **gratuita**.
-A venda ou comercialização deste software **não é autorizada** nem apoiada pelos desenvolvedores.
-
-Este programa **não possui vínculo** com a **Quality Automação Ltda.** (detentora do WebPosto),
-nem com a **Companytec / HorusTech**. Use por sua conta e risco.
-
----
+## 🔌 Concentradoras Homologadas
 
 <div align="center">
 
-**By ac4os · Trindade Tech**
+| Concentradora / Sistema | Status | Método de Integração |
+|:---|:---:|:---|
+| **Companytec** (Linha CBC) | <kbd>🟢 OPERACIONAL</kbd> | Comunicação direta via Socket IP |
+| **HorusTech** | <kbd>🟢 OPERACIONAL</kbd> | Gravação nativa no módulo de automação |
+| **EZTech (EZForecourt)** | <kbd>🟡 EM HOMOLOGAÇÃO</kbd> | Mapeamento de protocolo em andamento |
+| **Softplus / Demais marcas** | <kbd>⚪ NO ROADMAP</kbd> | Backlog de integrações futuras |
 
 </div>
+
+> 💡 **Precisa de suporte para outra concentradora?**  
+> Abra uma [**Issue**](https://github.com/ac4os/TrackerIDF-releases/issues) informando modelo, porta e protocolo para inclusão no roadmap.
+
+---
+
+## 🚦 Guia Rápido de Uso
