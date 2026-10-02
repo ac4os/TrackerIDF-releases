@@ -3,19 +3,20 @@
 
 ### Monitor & Auto-Cadastro de Identificadores de Pista (IDF)
 
-> Capture em tempo real tags e cartões não cadastrados no bico a partir do fluxo de logs do WebPosto — e grave direto na concentradora com apenas 1 clique.
+<br/>
 
+[![Versão Mais Recente](https://img.shields.io/github/v/release/ac4os/TrackerIDF-releases?label=vers%C3%A3o&style=for-the-badge&color=22c55e&logo=github)](https://github.com/ac4os/TrackerIDF-releases/releases/latest)
+[![Total Downloads](https://img.shields.io/github/downloads/ac4os/TrackerIDF-releases/total?style=for-the-badge&color=3b82f6&logo=google-drive)](https://github.com/ac4os/TrackerIDF-releases/releases)
+[![Compatibilidade SO](https://img.shields.io/badge/Windows-10%20%7C%2011%20(64--bit)-0ea5e9?style=for-the-badge&logo=windows)](#)
+[![Licença](https://img.shields.io/badge/Licen%C3%A7a-Gratuita-f59e0b?style=for-the-badge)](#)
 
+<br/>
 
-### ⚡ **[BAIXAR EXECUTÁVEL (ÚLTIMA VERSÃO)](https://github.com/ac4os/TrackerIDF-releases/releases/latest)**
+### ⚡ [**BAIXAR EXECUTÁVEL (ÚLTIMA VERSÃO)**](https://github.com/ac4os/TrackerIDF-releases/releases/latest)
 
-<sub>Sem instalador. Baixe o executável **`TrackerIDF-vX.X.X.exe`** na aba *Assets* da release e execute diretamente.</sub>
+<sub>Sem instalador. Baixe o **`TrackerIDF-vX.X.X.exe`** na aba *Assets* e use imediatamente.</sub>
 
-
-
-
-
----
+</div>
 
 ## ⚡ Recursos em Destaque
 
