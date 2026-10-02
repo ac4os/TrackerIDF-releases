@@ -40,7 +40,7 @@ O Tracker IDF suporta o cadastro direto nas seguintes concentradoras e softwares
 
 | Concentradora / Automação | Suporte a Cadastro | Protocolo / Observações |
 |---|:---:|---|
-| **Companytec** (CBC / Horustech) | ✅ Sim | Cadastro automático via DLL / comunicação direta |
+| **Companytec** (CBC) | ✅ Sim | Cadastro automático via DLL / comunicação direta |
 | **HorusTech** | ✅ Sim | Integração nativa para gravação de tag |
 | **EZTech (EZForecourt)** | 🟡 Em breve | Em fase de homologação |
 | **Softplus / Outras** | ⚪ Planejado | Sob análise técnica |
