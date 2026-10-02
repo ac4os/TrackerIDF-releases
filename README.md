@@ -90,7 +90,7 @@
 
 <div align="center">
 
-### Desenvolvido por **ac4os** · Mantido junto à **Trindade Tech** / **Heulles**
+### Desenvolvido por **ac4os** · Mantido junto à **Trindade Tech** 
 
 <img width="100%" alt="footer" src="https://capsule-render.vercel.app/api?type=waving&color=0:22c55e,50:3b82f6,100:0ea5e9&height=120&section=footer" />
 
