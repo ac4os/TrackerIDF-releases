@@ -85,7 +85,6 @@ Saiu versão nova → aparece um aviso **"Nova versão disponível. Baixar?"**.
 
 ### By ac4os · Trindade Tech
 
-<sub>Este repositório hospeda apenas os binários públicos. O código-fonte é privado.</sub>
 
 <img width="100%" alt="footer" src="https://capsule-render.vercel.app/api?type=waving&color=0:22c55e,50:3b82f6,100:0ea5e9&height=120&section=footer" />
 
