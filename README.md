@@ -1,72 +1,92 @@
+<div align="center">
+
+<img width="100%" alt="Tracker IDF" src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,50:3b82f6,100:22c55e&height=200&section=header&text=Tracker%20IDF&fontSize=64&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=bico%20%C2%B7%20sensor&descAlignY=58&descSize=20" />
 
 # 🛰️ Tracker IDF
 
-### Monitor & Auto-Cadastro de Identificadores de Pista (IDF)
+### Monitor de cartões não cadastrados — bico / sensor
+
+Ferramenta **gratuita** para capturar, em tempo real, identificadores (IDF)
+que passam no bico sem cadastro — e registrá-los na automação com um clique.
 
 <br/>
 
-[![Versão Mais Recente](https://img.shields.io/github/v/release/ac4os/TrackerIDF-releases?label=vers%C3%A3o&style=for-the-badge&color=22c55e&logo=github)](https://github.com/ac4os/TrackerIDF-releases/releases/latest)
-[![Total Downloads](https://img.shields.io/github/downloads/ac4os/TrackerIDF-releases/total?style=for-the-badge&color=3b82f6&logo=google-drive)](https://github.com/ac4os/TrackerIDF-releases/releases)
-[![Compatibilidade SO](https://img.shields.io/badge/Windows-10%20%7C%2011%20(64--bit)-0ea5e9?style=for-the-badge&logo=windows)](#)
-[![Licença](https://img.shields.io/badge/Licen%C3%A7a-Gratuita-f59e0b?style=for-the-badge)](#)
+[![Última versão](https://img.shields.io/github/v/release/ac4os/TrackerIDF-releases?label=vers%C3%A3o&style=for-the-badge&color=22c55e&logo=github&logoColor=white)](https://github.com/ac4os/TrackerIDF-releases/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/ac4os/TrackerIDF-releases/total?style=for-the-badge&color=3b82f6&logo=github&logoColor=white)](https://github.com/ac4os/TrackerIDF-releases/releases)
+[![Plataforma](https://img.shields.io/badge/Windows-10%20%7C%2011-0ea5e9?style=for-the-badge&logo=windows&logoColor=white)](#)
 
 <br/>
 
-### ⚡ [**BAIXAR EXECUTÁVEL (ÚLTIMA VERSÃO)**](https://github.com/ac4os/TrackerIDF-releases/releases/latest)
+<a href="https://github.com/ac4os/TrackerIDF-releases/releases/latest">
+  <img src="https://img.shields.io/badge/%E2%AC%87%EF%B8%8F%20BAIXAR%20%C3%9ALTIMA%20VERS%C3%83O-22c55e?style=for-the-badge&logoColor=white&labelColor=16a34a&color=22c55e" height="46" alt="Baixar última versão" />
+</a>
 
-<sub>Sem instalador. Baixe o **`TrackerIDF-vX.X.X.exe`** na aba *Assets* e use imediatamente.</sub>
+<sub>Baixe o arquivo **`TrackerIDF-vX.X.X.exe`** na seção **Assets** da última release.</sub>
+
+<br/>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
 
 </div>
 
-## ⚡ Recursos em Destaque
+## ✨ O que faz
 
-| Recurso | Descrição Técnica & Operacional |
-| --- | --- |
-| 📡 **Sniffer em Tempo Real** | Monitora dinamicamente a trilha de logs do WebPosto sem causar concorrência de leitura ou travamentos. |
-| ⚡ **Cadastro Instantâneo (1-Click)** | Basta dar um duplo-clique no cartão interceptado na tabela para disparar o cadastro na automação. |
-| 🏷️ **Cadastro Avulso Manual** | Permite registrar um IDF diretamente sem precisar passar o cartão fisicamente no bico. |
-| 📄 **Exportação Pronta** | Salva histórico de cartões identificados em formato `.TXT` estruturado com data e hora. |
+<table>
+  <tr>
+    <td align="center" width="70">🔎</td>
+    <td><b>Captura ao vivo</b><br/>Lê o log do WebPosto e mostra cada cartão não cadastrado na hora.</td>
+  </tr>
+  <tr>
+    <td align="center">🏷️</td>
+    <td><b>Cadastro 1-clique</b><br/>Registra o IDF direto na automação (HorusTech / Companytec).</td>
+  </tr>
+  <tr>
+    <td align="center">📤</td>
+    <td><b>Exportar TXT</b><br/>Salva todos os eventos capturados num arquivo.</td>
+  </tr>
+  <tr>
+    <td align="center">🔄</td>
+    <td><b>Auto-update</b><br/>O app avisa sozinho quando sai versão nova e oferece o download.</td>
+  </tr>
+</table>
 
----
+<div align="center"><img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" /></div>
 
-## 🔌 Concentradoras Homologadas
+## 🚀 Como usar
 
-| Concentradora / Automação | Status | Método de Integração / Comunicação |
-| --- | --- | --- |
-| **Companytec** (Linha CBC) | 🟢 OPERACIONAL | Comunicação via Socket / IP direto da concentradora |
-| **HorusTech** | 🟢 OPERACIONAL | Gravação nativa no módulo de automação |
-| **EZTech (EZForecourt)** | 🟡 EM HOMOLOGAÇÃO | Protocolo em fase de testes e mapeamento |
-| **Softplus / Demais marcas** | ⚪ NO ROADMAP | Em estudo técnico para próximas versões |
+1. **Baixe** o `.exe` da [última release](https://github.com/ac4os/TrackerIDF-releases/releases/latest).
+2. **Execute** — não precisa instalar (o Windows pode pedir permissão de administrador).
+3. Confirme o **caminho do log** (detecção automática) e clique em **Iniciar leitura**.
+4. Passou um cartão não cadastrado? Ele aparece na lista → **duplo-clique** para cadastrar.
 
-> 💡 **Utiliza outro Concentrador em pista?**
-> Abra uma **[Issue](https://github.com/ac4os/TrackerIDF-releases/issues)** informando fabricante, modelo e protocolo para priorizarmos a homologação.
+> 💡 Ao abrir, se houver versão mais nova, o próprio app pergunta se você quer baixar.
 
----
+<div align="center"><img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" /></div>
 
-## 🚦 Passo a Passo de Uso
+## 🔄 Atualização automática
 
-```
-┌──────────────┐     ┌──────────────┐     ┌──────────────────┐     ┌──────────────────┐
-│  Abrir o App │ ──> │ Detectar Log │ ──> │ Definir IP Auto. │ ──> │ Capturar / Gravar│
-└──────────────┘     └──────────────┘     └──────────────────┘     └──────────────────┘
+O Tracker IDF confere esta página de releases ao abrir.
+Saiu versão nova → aparece um aviso **"Nova versão disponível. Baixar?"**.
+É só aceitar, baixar o novo `.exe` e substituir o antigo.
 
-```
+<div align="center"><img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" /></div>
 
-1. **Executar:** Inicie o arquivo `.exe` (como não há instalador, se o Windows Defender SmartScreen alertar, clique em *Mais informações* ➔ *Executar assim mesmo*).
-2. **Definir Log:** Verifique se o caminho do log do WebPosto foi identificado automaticamente e clique em **`Iniciar Leitura`**.
-3. **Configurar IP da Automação:**
-> ⚠️ **Atenção obrigatória:** Para gravar cartões diretamente na concentradora, preencha o **endereço IP** e a respectiva **porta** da automação de pista.
+## ⚠️ Aviso importante
 
-4. **Capturar e Gravar:** Quando um cartão ou tag sem cadastro for passado no bico, ele aparecerá instantaneamente na grade. Dê **duplo-clique** sobre ele para efetuar o cadastro.
-5. **Cadastrar Avulso:** Caso precise cadastrar um cartão que não passou no bico, use a função **`Cadastrar Avulso`**, digite o identificador e conclua.
+> O Tracker IDF é uma ferramenta **gratuita**.
+> A venda ou comercialização deste software **não é autorizada** nem apoiada pelos desenvolvedores.
+>
+> Este programa **não possui vínculo** com a **Quality Automação Ltda.** (detentora do WebPosto),
+> nem com a **Companytec / HorusTech**. Use por sua conta e risco.
 
----
+<br/>
 
-## 🛡️ Termos de Uso & Isenção de Responsabilidade
+<div align="center">
 
-* 🟢 **Uso Livre e Gratuito:** Software desenvolvido para apoiar técnicos, suporte e operadores de pista. A revenda, empacotamento comercial ou cobrança por este utilitário é expressamente proibida.
-* ⚖️ **Aviso Legal:** Ferramenta independente. Não possui qualquer vínculo comercial, parceria formal ou endosso da **Quality Automação Ltda.** (desenvolvedora do WebPosto) ou dos fabricantes de hardware (**Companytec / HorusTech**). Utilize sob supervisão técnica.
+### By ac4os · Trindade Tech
 
----
+<sub>Este repositório hospeda apenas os binários públicos. O código-fonte é privado.</sub>
 
-Desenvolvido por **ac4os** · Mantido junto à **Trindade Tech** / **Heulles**
+<img width="100%" alt="footer" src="https://capsule-render.vercel.app/api?type=waving&color=0:22c55e,50:3b82f6,100:0ea5e9&height=120&section=footer" />
+
+</div>
