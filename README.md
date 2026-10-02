@@ -30,9 +30,7 @@ Com um **duplo clique** em qualquer linha, você abre o formulário de cadastro 
 - 🔍 Detecção automática do log mais recente
 - ✏️ Cadastro de IDF direto na automação HorusTech
 - 📦 Cadastro em lote — vários IDF de uma vez, separados por `;`
-- 🌐 Descoberta automática da automação na rede
 - 💾 Exportação dos eventos para `.txt`
-- 🔄 Atualização automática — avisa quando há nova versão
 
 ---
 
