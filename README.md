@@ -1,70 +1,72 @@
-# Tracker IDF
+<div align="center">
 
-> Ferramenta gratuita para técnico e usuários WP  — captura cartões não cadastrados na automação e no WebPosto (Quality) sendo possivel cadastra identificadores (IDF) diretamente na automação HorusTech.
+# 🛰️ Tracker IDF
 
-[![Última versão](https://img.shields.io/github/v/release/ac4os/TrackerIDF-releases?label=vers%C3%A3o&color=2ea44f)](https://github.com/ac4os/TrackerIDF-releases/releases/latest)
-[![Plataforma](https://img.shields.io/badge/plataforma-Windows-blue)](#-download)
+### Monitor de cartões não cadastrados — bico / sensor
 
----
+Ferramenta **gratuita** para capturar, em tempo real, identificadores (IDF)
+que passam no bico sem cadastro — e registrá-los na automação com um clique.
 
-## O que faz?
+<br/>
 
-O Tracker IDF monitora em tempo real o log da automação WebPosto e detecta toda vez que um cartão **não cadastrado** é passado em um bico.
+[![Última versão](https://img.shields.io/github/v/release/ac4os/TrackerIDF-releases?label=vers%C3%A3o&style=for-the-badge&color=22c55e)](https://github.com/ac4os/TrackerIDF-releases/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/ac4os/TrackerIDF-releases/total?style=for-the-badge&color=3b82f6)](https://github.com/ac4os/TrackerIDF-releases/releases)
+[![Plataforma](https://img.shields.io/badge/Windows-10%20%7C%2011-0ea5e9?style=for-the-badge&logo=windows)](#)
 
-Para cada passagem detectada, ele mostra:
+<br/>
 
-| Campo  | Descrição |
-|--------|-----------|
-| Hora   | Data e hora exata da passagem |
-| Cartão | Código do identificador (IDF) |
-| Bico   | Número do bico |
-| Sensor | Sensor da automação |
+### ⬇️ [**BAIXAR ÚLTIMA VERSÃO**](https://github.com/ac4os/TrackerIDF-releases/releases/latest)
 
-Com um **duplo clique** em qualquer linha, você abre o formulário de cadastro e grava o IDF diretamente na automação — sem precisar abrir o HRSConsole.
+<sub>Baixe o arquivo **`TrackerIDF-vX.X.X.exe`** na seção **Assets** da última release.</sub>
 
----
-
-## Funcionalidades
-
-- 📡 Leitura ao vivo do log `webPostoLeituraAutomacao*` em `C:\Quality\LOG`
-- 🔍 Detecção automática do log mais recente
-- ✏️ Cadastro de IDF direto na automação HorusTech
-- 📦 Cadastro em lote — vários IDF de uma vez, separados por `;`
-- 💾 Exportação dos eventos para `.txt`
+</div>
 
 ---
 
-## 📥 Download
+## ✨ O que faz
 
-Acesse a [**página de releases**](https://github.com/ac4os/TrackerIDF-releases/releases/latest) e baixe o `.exe` da versão mais recente.
-
-> Não precisa instalar nada. Basta executar o arquivo.
-
-Se o Windows exibir um aviso do SmartScreen, clique em **"Mais informações" → "Executar assim mesmo"**.
+| | |
+|---|---|
+| 🔎 **Captura ao vivo** | Lê o log do WebPosto e mostra cada cartão não cadastrado na hora. |
+| 🏷️ **Cadastro 1-clique** | Registra o IDF direto na automação (HorusTech / Companytec). |
+| 📤 **Exportar TXT** | Salva todos os eventos capturados num arquivo. |
+| 🔄 **Auto-update** | O app avisa sozinho quando sai versão nova e oferece o download. |
 
 ---
 
-## Como usar
+## 🚀 Como usar
 
-1. Execute o `TrackerIDF.exe`
-2. O caminho do log é detectado automaticamente, caso esteja fora do caminho padrão, pode buscar
-3. Clique em **"Iniciar leitura"**
-4. Passe um cartão não cadastrado no bico — ele aparece na tabela
-5. Dê **duplo clique** na linha para cadastrar o IDF na automação (Hoje só temos protocolo HRSConsole)
-6. Para cadastro na automação, é necessário informar o ip da automação ( a porta TCP ele busca a livre sozinho)
+1. **Baixe** o `.exe` da [última release](https://github.com/ac4os/TrackerIDF-releases/releases/latest).
+2. **Execute** — não precisa instalar (o Windows pode pedir permissão de administrador).
+3. Confirme o **caminho do log** (detecção automática) e clique em **Iniciar leitura**.
+4. Passou um cartão não cadastrado? Ele aparece na lista → **duplo-clique** para cadastrar.
+
+> 💡 Ao abrir, se houver versão mais nova, o próprio app pergunta se você quer baixar.
+
+---
+
+## 🔄 Atualização automática
+
+O Tracker IDF confere esta página de releases ao abrir.
+Saiu versão nova → aparece um aviso **"Nova versão disponível. Baixar?"**.
+É só aceitar, baixar o novo `.exe` e substituir o antigo.
 
 ---
 
 ## ⚠️ Aviso importante
 
-O Tracker IDF é uma **ferramenta gratuita**.
-
+O Tracker IDF é uma ferramenta **gratuita**.
 A venda ou comercialização deste software **não é autorizada** nem apoiada pelos desenvolvedores.
 
-Este programa **não possui qualquer vínculo** com a **Quality Automação Ltda.** (detentora do WebPosto), nem com a **Companytec / HorusTech**.
-
-**Use por sua conta e risco.**
+Este programa **não possui vínculo** com a **Quality Automação Ltda.** (detentora do WebPosto),
+nem com a **Companytec / HorusTech**. Use por sua conta e risco.
 
 ---
 
-*By **ac4os** — Trindade Tech*
+<div align="center">
+
+**By ac4os · Trindade Tech**
+
+<sub>Este repositório hospeda apenas os binários públicos. O código-fonte é privado.</sub>
+
+</div>
