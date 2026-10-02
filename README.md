@@ -29,9 +29,9 @@
 |---|---|
 | 📡 **Sniffer em Tempo Real** | Monitora dinamicamente as trilhas de log do WebPosto sem travamentos ou concorrência de leitura. |
 | ⚡ **Cadastro Instantâneo (1-Click)** | Dê duplo-clique no cartão capturado para gravar direto na concentradora ativa. |
-| 🏷️ **Cadastro Avulso Manual** | Tem o número do frentista ou sensor em mãos? Cadastre avulso sem precisar passar o bico. |
+| 🏷️ **Cadastro Avulso Manual** | Tem o número do RFID ? Cadastre avulso sem precisar passar o bico. |
 | 📄 **Exportação Pronta** | Exporte listas de IDs capturados para `.TXT` estruturado com timestamp e canal. |
-| 🔄 **Smart Auto-Update** | Checagem de novas releases via API ao abrir o app — atualize com 1 toque. |
+
 
 ---
 
