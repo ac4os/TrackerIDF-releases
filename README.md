@@ -28,9 +28,24 @@ que passam no bico sem cadastro — e registrá-los na automação com um clique
 | | |
 |---|---|
 | 🔎 **Captura ao vivo** | Lê o log do WebPosto e mostra cada cartão não cadastrado na hora. |
-| 🏷️ **Cadastro 1-clique** | Registra o IDF direto na automação (HorusTech / Companytec). |
+| 🏷️ **Cadastro 1-clique** | Registra o IDF direto na automação compatível. |
 | 📤 **Exportar TXT** | Salva todos os eventos capturados num arquivo. |
 | 🔄 **Auto-update** | O app avisa sozinho quando sai versão nova e oferece o download. |
+
+---
+
+## 🔌 Automações compatíveis para cadastro de IDF
+
+O Tracker IDF suporta o cadastro direto nas seguintes concentradoras e softwares de pista:
+
+| Concentradora / Automação | Suporte a Cadastro | Protocolo / Observações |
+|---|:---:|---|
+| **Companytec** (CBC / Horustech) | ✅ Sim | Cadastro automático via DLL / comunicação direta |
+| **HorusTech** | ✅ Sim | Integração nativa para gravação de tag |
+| **EZTech (EZForecourt)** | 🟡 Em breve | Em fase de homologação |
+| **Softplus / Outras** | ⚪ Planejado | Sob análise técnica |
+
+> 📌 *Dica:* Se você opera com outra concentradora e precisa de suporte direto, abra uma *Issue* com o modelo do equipamento para avaliarmos a implementação.
 
 ---
 
@@ -53,7 +68,7 @@ Saiu versão nova → aparece um aviso **"Nova versão disponível. Baixar?"**.
 
 ---
 
-## ⚠️ Aviso importante
+## ⚠️️ Aviso importante
 
 O Tracker IDF é uma ferramenta **gratuita**.
 A venda ou comercialização deste software **não é autorizada** nem apoiada pelos desenvolvedores.
