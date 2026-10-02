@@ -67,6 +67,4 @@ nem com a **Companytec / HorusTech**. Use por sua conta e risco.
 
 **By ac4os · Trindade Tech**
 
-<sub>Este repositório hospeda apenas os binários públicos. O código-fonte é privado.</sub>
-
 </div>
