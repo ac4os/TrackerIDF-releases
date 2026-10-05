@@ -10,6 +10,8 @@
 
 [![Versão Mais Recente](https://img.shields.io/github/v/release/ac4os/TrackerIDF-releases?label=vers%C3%A3o&style=for-the-badge&color=22c55e&logo=github)](https://github.com/ac4os/TrackerIDF-releases/releases/latest)
 [![Total Downloads](https://img.shields.io/github/downloads/ac4os/TrackerIDF-releases/total?style=for-the-badge&color=3b82f6&logo=google-drive)](https://github.com/ac4os/TrackerIDF-releases/releases)
+[![Online Agora](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Ftrackeridf-telemetry.ac4os-dev.workers.dev%2Fstats&query=%24.online&label=online%20agora&style=for-the-badge&color=22c55e&logo=cloudflare)](#-uso-em-tempo-real)
+[![Usuários](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Ftrackeridf-telemetry.ac4os-dev.workers.dev%2Fstats&query=%24.total&label=usu%C3%A1rios&style=for-the-badge&color=8b5cf6&logo=statuspage)](#-uso-em-tempo-real)
 [![Compatibilidade SO](https://img.shields.io/badge/Windows-10%20%7C%2011%20(64--bit)-0ea5e9?style=for-the-badge&logo=windows)](#)
 [![Licença](https://img.shields.io/badge/Licen%C3%A7a-Gratuita-f59e0b?style=for-the-badge)](#)
 
@@ -76,13 +78,21 @@
 <img width="1137" height="878" alt="image" src="https://github.com/user-attachments/assets/06244c20-3e43-4755-81bc-ca4899b1f913" /> 
 
 
-<img width="1373" height="771" alt="image" src="https://github.com/user-attachments/assets/bf4e1c8a-d38c-47f1-bd79-891bf0c9a37d" />
-<img width="1366" height="773" alt="image" src="https://github.com/user-attachments/assets/88a24841-6ea2-46c1-8384-218142cfa0e9" />
+https://github.com/user-attachments/assets/837b1c8e-ab22-4b4a-a034-38778a4ea2c3
 
 
+   
 5. **Cadastrar Avulso:** Caso precise cadastrar um cartão que não passou no bico, use a função **`Cadastrar Avulso`**, digite o identificador e conclua.
 
 <div align="center">
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
+
+## 📊 Uso em Tempo Real
+
+<img alt="Usuários ativos por dia" src="https://trackeridf-telemetry.ac4os-dev.workers.dev/chart.svg" width="100%" />
+
+<sub>Máquinas únicas ativas por dia. Atualização automática · telemetria <b>anônima</b> (apenas um identificador irreversível da máquina + versão, nenhum dado pessoal).</sub>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
 
