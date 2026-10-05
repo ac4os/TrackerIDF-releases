@@ -92,7 +92,7 @@
 
 <img alt="Usos por dia" src="https://trackeridf-telemetry.ac4os-dev.workers.dev/chart.svg" width="100%" />
 
-<sub>Uso Diario · telemetria <b>anônima</b> (apenas um identificador irreversível da máquina + versão, nenhum dado pessoal).</sub>
+
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
 
