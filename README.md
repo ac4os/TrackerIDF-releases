@@ -73,6 +73,8 @@
 > ⚠️ **Atenção obrigatória:** Para gravar cartões diretamente na concentradora, preencha o **endereço IP** e a respectiva **porta** da automação de pista.
 
 4. **Capturar e Gravar:** Quando um cartão ou tag sem cadastro for passado no bico, ele aparecerá instantaneamente na grade. Dê **duplo-clique** sobre ele para efetuar o cadastro.
+<img width="1137" height="878" alt="image" src="https://github.com/user-attachments/assets/06244c20-3e43-4755-81bc-ca4899b1f913" /> 
+   
 5. **Cadastrar Avulso:** Caso precise cadastrar um cartão que não passou no bico, use a função **`Cadastrar Avulso`**, digite o identificador e conclua.
 
 <div align="center">
