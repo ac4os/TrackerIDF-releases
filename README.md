@@ -76,10 +76,10 @@
 <img width="1137" height="878" alt="image" src="https://github.com/user-attachments/assets/06244c20-3e43-4755-81bc-ca4899b1f913" /> 
 
 
-https://github.com/user-attachments/assets/837b1c8e-ab22-4b4a-a034-38778a4ea2c3
+<img width="1373" height="771" alt="image" src="https://github.com/user-attachments/assets/bf4e1c8a-d38c-47f1-bd79-891bf0c9a37d" />
+<img width="1366" height="773" alt="image" src="https://github.com/user-attachments/assets/88a24841-6ea2-46c1-8384-218142cfa0e9" />
 
 
-   
 5. **Cadastrar Avulso:** Caso precise cadastrar um cartão que não passou no bico, use a função **`Cadastrar Avulso`**, digite o identificador e conclua.
 
 <div align="center">
