@@ -11,7 +11,6 @@
 [![Versão Mais Recente](https://img.shields.io/github/v/release/ac4os/TrackerIDF-releases?label=vers%C3%A3o&style=for-the-badge&color=22c55e&logo=github)](https://github.com/ac4os/TrackerIDF-releases/releases/latest)
 [![Total Downloads](https://img.shields.io/github/downloads/ac4os/TrackerIDF-releases/total?style=for-the-badge&color=3b82f6&logo=google-drive)](https://github.com/ac4os/TrackerIDF-releases/releases)
 [![Usos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Ftrackeridf-telemetry.ac4os-dev.workers.dev%2Fstats&query=%24.uses&label=usos&style=for-the-badge&color=22c55e&logo=rocket)](#-uso)
-[![Usuários](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Ftrackeridf-telemetry.ac4os-dev.workers.dev%2Fstats&query=%24.machines&label=usu%C3%A1rios&style=for-the-badge&color=8b5cf6&logo=statuspage)](#-uso)
 [![Compatibilidade SO](https://img.shields.io/badge/Windows-10%20%7C%2011%20(64--bit)-0ea5e9?style=for-the-badge&logo=windows)](#)
 [![Licença](https://img.shields.io/badge/Licen%C3%A7a-Gratuita-f59e0b?style=for-the-badge)](#)
 
